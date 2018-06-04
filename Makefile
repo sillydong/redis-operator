@@ -1,13 +1,13 @@
-VERSION := 0.2.5
+VERSION := 0.2.6
 
 # Name of this service/application
 SERVICE_NAME := redis-operator
 
 # Docker image name for this project
-IMAGE_NAME := spotahome/$(SERVICE_NAME)
+IMAGE_NAME := sillydong/$(SERVICE_NAME)
 
 # Repository url for this project
-REPOSITORY := quay.io/$(IMAGE_NAME)
+REPOSITORY := docker.io/$(IMAGE_NAME)
 
 # Shell to use for running scripts
 SHELL := $(shell which bash)
